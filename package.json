@@ -1,0 +1,27 @@
+{
+  "name": "voipmssms-notify",
+  "description": "Cloudflare Worker for VoIP.ms SMS",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Michael Kourlas",
+    "email": "michael@kourlas.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelkourlas/voipms-sms-push-notifications.git"
+  },
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "jose": "^5.2.0"
+  }
+}
